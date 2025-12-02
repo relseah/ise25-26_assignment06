@@ -1,6 +1,8 @@
 package de.seuhd.campuscoffee.domain.ports;
 
 import de.seuhd.campuscoffee.domain.model.User;
+import de.seuhd.campuscoffee.domain.exceptions.NotFoundException;
+import de.seuhd.campuscoffee.domain.exceptions.MissingFieldException;
 
 import java.util.List;
 
