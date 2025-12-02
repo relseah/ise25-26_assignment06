@@ -7,8 +7,8 @@ import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean
 
 /**
  * MapStruct mapper for converting between domain model objects and DTOs.
- * This mapper handles the translation between the {@link Pos} domain model and the
- * {@link PosDto}.
+ * This mapper handles the translation between the {@link User} domain model and the
+ * {@link UserDto}.
  * <p>
  * This is part of the API layer adapter in the hexagonal architecture, enabling the
  * domain layer to remain independent of API concerns.
